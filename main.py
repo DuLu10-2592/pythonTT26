@@ -5,15 +5,15 @@ productos = [
 ] # [[],[],[]]
 
 while True:
-    print("="*40) # <-  ==================================
+    print("="*30) # <-  ==================================
     print("Sistema de getion de productos") 
-    print("="*40) # <-  ==================================
+    print("="*30) # <-  ==================================
     print("""
     1. Agregar productos
     2. Mostrar productos
-    3. Buscar producto")
+    3. Buscar producto
     4. Eliminar producto
-    5. Salir"
+    5. Salir
     """)  
 
     opcion = input("Elegi una opción (1-5): ").strip()  #"     1    " 
